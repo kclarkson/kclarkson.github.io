@@ -1,0 +1,9 @@
+//
+// Styles for main layout
+// --------------------------------------------------
+
+body {
+	@include breakpoint ($tablet-max) {
+		background-color: red;
+	}
+}

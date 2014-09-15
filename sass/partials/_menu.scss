@@ -1,0 +1,8 @@
+// Menu
+// Styles for Menus and Navs
+// --------------------------------------------------
+
+.navbar-custom {
+	background-color: orange;
+	@include background-image(linear-gradient(orange, orange));
+}
