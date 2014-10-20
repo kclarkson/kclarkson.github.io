@@ -1,0 +1,15 @@
+.navbar-default .container-fluid {
+	max-width: 1140px;
+}
+
+ a.navbar-brand {
+ 	font-size: $font-size-h3;
+ 	&:hover {
+ 		color: $blue !important;
+ 	}
+}
+
+
+.navbar-fixed-top {
+	padding: 5px 0px;
+}
