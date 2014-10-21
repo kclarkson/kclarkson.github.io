@@ -60,26 +60,28 @@ div.jumbotron h1 {
 /* line 45, ../assets/sass/components/_layout.scss */
 .mainContent.container {
   margin-top: 4em;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-/* line 49, ../assets/sass/components/_layout.scss */
+/* line 51, ../assets/sass/components/_layout.scss */
 .mainContent, footer.container {
   max-width: 1170px;
 }
 
 @media (min-width: 768px) {
-  /* line 54, ../assets/sass/components/_layout.scss */
+  /* line 56, ../assets/sass/components/_layout.scss */
   .sidebar {
     padding-top: 30px;
   }
 }
 
-/* line 60, ../assets/sass/components/_layout.scss */
+/* line 62, ../assets/sass/components/_layout.scss */
 .well {
   text-align: center;
 }
 
-/* line 64, ../assets/sass/components/_layout.scss */
+/* line 66, ../assets/sass/components/_layout.scss */
 .well.sidebar-nav {
   background-color: #12A7C9;
 }
