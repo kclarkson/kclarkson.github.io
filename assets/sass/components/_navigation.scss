@@ -1,9 +1,20 @@
+.brand-name,
+.brand-number {
+	float:left;
+}
+
+.brand-number {
+	color: $orange;
+}
+
+
 .navbar-default .container-fluid {
 	max-width: 1140px;
 }
 
  a.navbar-brand {
- 	font-size: $font-size-h3;
+ 	color: $white !important;
+ 	font-size: 40px;
  	&:hover {
  		color: $blue !important;
  	}
@@ -13,3 +24,10 @@
 .navbar-fixed-top {
 	padding: 5px 0px;
 }
+
+ul.navbar-nav {
+	li {
+		font-size: 1.3em;
+	}
+}
+
