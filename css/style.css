@@ -1,15 +1,30 @@
 @charset "UTF-8";
 /*For use with min-width only*/
 /*For use with min-width and max-width*/
+/* line 1, ../assets/sass/variables/_typography.scss */
+.mainContent {
+  font-size: 1.2em;
+}
+
 /* No files to import found in abstractions/* */
 /* line 1, ../assets/sass/base/_forms.scss */
 .btn.btn-primary {
   font-size: 1.1em;
 }
 
+/* line 5, ../assets/sass/base/_forms.scss */
+.btn-view-all {
+  margin-top: 1.2em;
+}
+
 /* line 1, ../assets/sass/base/_media.scss */
 img, media {
   max-width: 100%;
+}
+
+/* line 1, ../assets/sass/base/_typography.scss */
+body {
+  color: #736f68 !important;
 }
 
 /* line 6, ../assets/sass/components/_layout.scss */
@@ -19,7 +34,7 @@ h4 small {
   color: #888;
 }
 
-/* line 12, ../assets/sass/components/_layout.scss */
+/* line 14, ../assets/sass/components/_layout.scss */
 footer.container {
   color: #555555;
   margin-top: 30px;
@@ -27,63 +42,133 @@ footer.container {
   border-top: 1px dashed #aaa;
 }
 
-/* line 19, ../assets/sass/components/_layout.scss */
+/* line 21, ../assets/sass/components/_layout.scss */
 .header-container {
   padding: 0px 15px;
 }
 
-/* line 24, ../assets/sass/components/_layout.scss */
+/* line 26, ../assets/sass/components/_layout.scss */
 .headshot img {
   max-width: 250px;
 }
 
-/* line 29, ../assets/sass/components/_layout.scss */
+/* line 31, ../assets/sass/components/_layout.scss */
+.hm-posts li:first-child {
+  padding-left: 0px;
+}
+
+/* line 35, ../assets/sass/components/_layout.scss */
+.hm-posts:last-child {
+  padding-right: 0px;
+}
+
+/* line 40, ../assets/sass/components/_layout.scss */
+.hm-posts li {
+  list-style: none;
+}
+
+/* line 45, ../assets/sass/components/_layout.scss */
+.image-header, .image-header-posts, .image-header-projects {
+  margin-bottom: 1em;
+}
+
+/* line 57, ../assets/sass/components/_layout.scss */
 div.jumbotron {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 32, ../assets/sass/components/_layout.scss */
+/* line 60, ../assets/sass/components/_layout.scss */
 div.jumbotron h1 {
   font-size: 50px;
   margin-top: 0px;
 }
 
-/* line 38, ../assets/sass/components/_layout.scss */
+/* line 66, ../assets/sass/components/_layout.scss */
 .container .jumbotron {
   margin-top: 30px;
 }
-/* line 40, ../assets/sass/components/_layout.scss */
+/* line 68, ../assets/sass/components/_layout.scss */
 .container .jumbotron h1 {
   color: #12A7C9;
 }
 
-/* line 45, ../assets/sass/components/_layout.scss */
+/* line 73, ../assets/sass/components/_layout.scss */
 .mainContent.container {
   margin-top: 4em;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 51, ../assets/sass/components/_layout.scss */
+/* line 79, ../assets/sass/components/_layout.scss */
 .mainContent, footer.container {
   max-width: 1170px;
 }
 
+/* line 83, ../assets/sass/components/_layout.scss */
+.project-title {
+  background-color: #f7f9f9;
+  border: 1px solid #eeeeee;
+  font-size: 1.4em;
+  padding: 10px 0px;
+  text-align: center;
+}
+/* line 89, ../assets/sass/components/_layout.scss */
+.project-title a {
+  color: #736f68;
+}
+
+/* line 94, ../assets/sass/components/_layout.scss */
+.project-one.col-md-6 {
+  padding: 0px 0px;
+  margin-bottom: 2em;
+}
+@media (min-width: 992px) {
+  /* line 94, ../assets/sass/components/_layout.scss */
+  .project-one.col-md-6 {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+}
+
+/* line 104, ../assets/sass/components/_layout.scss */
+.project-two.col-md-6 {
+  padding: 0px 0px;
+}
+@media (min-width: 992px) {
+  /* line 104, ../assets/sass/components/_layout.scss */
+  .project-two.col-md-6 {
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+}
+
 @media (min-width: 768px) {
-  /* line 56, ../assets/sass/components/_layout.scss */
+  /* line 112, ../assets/sass/components/_layout.scss */
   .sidebar {
     padding-top: 30px;
   }
 }
 
-/* line 62, ../assets/sass/components/_layout.scss */
+/* line 118, ../assets/sass/components/_layout.scss */
 .well {
   text-align: center;
 }
 
-/* line 66, ../assets/sass/components/_layout.scss */
+/* line 122, ../assets/sass/components/_layout.scss */
 .well.sidebar-nav {
   background-color: #12A7C9;
+}
+/* line 124, ../assets/sass/components/_layout.scss */
+.well.sidebar-nav h3 {
+  color: #f7f9f9;
+}
+/* line 127, ../assets/sass/components/_layout.scss */
+.well.sidebar-nav li,
+.well.sidebar-nav a,
+.well.sidebar-nav a:hover {
+  background-color: transparent !important;
+  color: #f7f9f9;
 }
 
 /* line 1, ../assets/sass/components/_navigation.scss */

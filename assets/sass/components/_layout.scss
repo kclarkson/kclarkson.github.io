@@ -9,6 +9,8 @@ h4 small {
     color: #888;
 }
 
+
+
 footer.container {
     color: $gray;
     margin-top: 30px;
@@ -24,6 +26,32 @@ footer.container {
     img {
         max-width: 250px;
     } 
+}
+
+.hm-posts li:first-child {
+    padding-left: 0px;
+}
+
+.hm-posts:last-child {
+    padding-right: 0px;
+}
+
+.hm-posts {
+    li {
+        list-style: none;
+    }
+}
+
+.image-header {
+    margin-bottom: 1em;
+}
+
+.image-header-posts {
+    @extend .image-header;
+}
+
+.image-header-projects {
+    @extend .image-header;
 }
 
 div.jumbotron {
@@ -52,6 +80,34 @@ div.jumbotron {
     max-width: 1170px;
 }
 
+.project-title {
+    background-color: $white;
+    border: 1px solid $gray-lighter;
+    font-size: 1.4em;
+    padding: 10px 0px;
+    text-align: center;
+    a {
+        color: $grey;
+    }
+}
+
+.project-one.col-md-6 {
+    padding: 0px 0px;
+    margin-bottom: 2em;
+    @include breakpoint($desktop) {
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+}
+
+.project-two.col-md-6 {
+    padding: 0px 0px;
+       @include breakpoint($desktop) {
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+}
 
 .sidebar { 
 	@include breakpoint ($tablet) {
@@ -65,5 +121,14 @@ div.jumbotron {
 
 .well.sidebar-nav {
     background-color: $blue;
+    h3 {
+        color:$white;
+    }
+    li,
+    a,
+    a:hover {
+        background-color: transparent !important;
+        color: $white;
+    }
 }
 
