@@ -3,7 +3,7 @@
     <title><![CDATA[kaleem clarkson]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2014-11-24T13:59:30+01:00</updated>
+    <updated>2014-11-24T14:03:49+01:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -123,6 +123,13 @@ can be friends?</p>
             <content type="html"><![CDATA[<p>Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
 was hacked and pizza was had. Some pics of the conference are
 available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665306.112810.129739647076172">Sensio Labs Facebook page</a>.</p>
+
+<!---
+year:
+month:
+day:
+weekday:
+-->
 ]]></content>
         </entry>
             <entry>
