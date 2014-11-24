@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[kaleem clarkson]]></title>
-    <link href="kclarkson/kclarkson.github.io/atom.xml" rel="self"/>
-    <link href="kclarkson/kclarkson.github.io/"/>
-    <updated>2014-11-24T07:16:21+01:00</updated>
-    <id>kclarkson/kclarkson.github.io/</id>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2014-11-24T07:25:51+01:00</updated>
+    <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Syntax Highlighting]]></title>
-            <link href="kclarkson/kclarkson.github.io/blog/2013/02/04/highlight"/>
+            <link href="/blog/2013/02/04/highlight"/>
             <updated>2013-02-04T00:00:00+01:00</updated>
-            <id>kclarkson/kclarkson.github.io/blog/2013/02/04/highlight</id>
+            <id>/blog/2013/02/04/highlight</id>
             <content type="html"><![CDATA[<p>You're all programmers, right? And you're writing code snippets on your Sculpin
 powered blog? Yeah. So you want some highlighting with your static site generation?
 Here you go!</p>
@@ -50,9 +50,9 @@ for suggesting it. :)</p>
         </entry>
             <entry>
             <title type="html"><![CDATA[Lorem Ipsum]]></title>
-            <link href="kclarkson/kclarkson.github.io/blog/2012/11/27/lorem-ipsum"/>
+            <link href="/blog/2012/11/27/lorem-ipsum"/>
             <updated>2012-11-27T00:00:00+01:00</updated>
-            <id>kclarkson/kclarkson.github.io/blog/2012/11/27/lorem-ipsum</id>
+            <id>/blog/2012/11/27/lorem-ipsum</id>
             <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat congue
 lacus vel convallis. Cras nisi urna, ultrices non semper quis, ultricies sit
 amet est. Donec nunc velit, consequat a pulvinar a, eleifend id leo. Curabitur
@@ -98,18 +98,18 @@ aliquam id.</p>
         </entry>
             <entry>
             <title type="html"><![CDATA[And Then There Was Textile Support]]></title>
-            <link href="kclarkson/kclarkson.github.io/blog/2012/11/26/and-then-there-was-textile-support"/>
+            <link href="/blog/2012/11/26/and-then-there-was-textile-support"/>
             <updated>2012-11-26T00:00:00+01:00</updated>
-            <id>kclarkson/kclarkson.github.io/blog/2012/11/26/and-then-there-was-textile-support</id>
+            <id>/blog/2012/11/26/and-then-there-was-textile-support</id>
             <content type="html"><![CDATA[<p><a href="https://github.com/netcarver/textile">Textile</a> support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!</p>
 
 <p>In honor of this milestone, this post is written in <strong>Textile</strong>.</p>]]></content>
         </entry>
             <entry>
             <title type="html"><![CDATA[Balrog]]></title>
-            <link href="kclarkson/kclarkson.github.io/blog/2012/10/16/balrog"/>
+            <link href="/blog/2012/10/16/balrog"/>
             <updated>2012-10-16T00:00:00+02:00</updated>
-            <id>kclarkson/kclarkson.github.io/blog/2012/10/16/balrog</id>
+            <id>/blog/2012/10/16/balrog</id>
             <content type="html"><![CDATA[<p>Found out about <a href="http://github.com/igorw/balrog">Balrog</a> today! It looks
 like a really nice micro static site generator. Maybe Sculpin and Balrog
 can be friends?</p>
@@ -117,9 +117,9 @@ can be friends?</p>
         </entry>
             <entry>
             <title type="html"><![CDATA[Symfony Live Hacking Day!]]></title>
-            <link href="kclarkson/kclarkson.github.io/blog/2012/09/29/symfony-live-hacking-day"/>
+            <link href="/blog/2012/09/29/symfony-live-hacking-day"/>
             <updated>2012-09-29T00:00:00+02:00</updated>
-            <id>kclarkson/kclarkson.github.io/blog/2012/09/29/symfony-live-hacking-day</id>
+            <id>/blog/2012/09/29/symfony-live-hacking-day</id>
             <content type="html"><![CDATA[<p>Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
 was hacked and pizza was had. Some pics of the conference are
 available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665306.112810.129739647076172">Sensio Labs Facebook page</a>.</p>
@@ -127,9 +127,9 @@ available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665
         </entry>
             <entry>
             <title type="html"><![CDATA[]]></title>
-            <link href="kclarkson/kclarkson.github.io/blog/2014/11/14/bundler-back-from-rubies-hell-"/>
+            <link href="/blog/2014/11/14/bundler-back-from-rubies-hell-"/>
             <updated>2014-11-14T00:00:00+01:00</updated>
-            <id>kclarkson/kclarkson.github.io/blog/2014/11/14/bundler-back-from-rubies-hell-</id>
+            <id>/blog/2014/11/14/bundler-back-from-rubies-hell-</id>
             <content type="html"><![CDATA[<hr />
 
 <p>title: Bundler: Brings back from Ruby Conflicting Hell
