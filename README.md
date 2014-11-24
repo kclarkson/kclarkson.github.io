@@ -1,14 +1,19 @@
-# Kaleem Clarkson's Personal Website
+# Kaleem S. Clarkson
 
-The personal portfolio for Kaleem Clarkson's build with Sculpin, SASS and Bootstrap.  
+Welcome to my personal portfolio source code that is built with Sculpin, SASS and Bootstrap. This page is a combination of Sculpin's original directions with some of my personal notes and reminders.   
 
 Sculpin is a static site generator written in PHP. It converts Markdown files, Twig templates or standard HTML into a static HTML site that can be easily deployed.
 
 For more information visit <a href="https://sculpin.io/">Sculpin</a>
 
 # Site Reminders and Code 
-used to generate the production sculpin output along with url
+
+sculpin generate --server --watch
+**generates and watches in local dev
+
 sculpin generate --env=prod --url=kclarkson/kclarkson.github.io
+**generates the production sculpin output along with url's
+
 
 Sculpin Blog Skeleton
 =====================

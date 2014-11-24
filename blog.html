@@ -1,0 +1,57 @@
+<!---
+year:
+month:
+day:
+weekday:
+-->
+---
+layout: default
+title: Blog
+generator: pagination
+pagination:
+    max_per_page: 5
+    provider: data.posts
+use:
+    - posts
+
+---
+{% block content %}
+
+<h1>Blog</h1>
+ {% for post in page.pagination.items %}
+     {% if post.logos %}
+        <a href="{{ site.url }}{{ project.url }}" class="project-title">
+            <div class="project-image-header">
+                <img src="{{ site.url }}/{{ project.logos }}"></div></a>
+        {% endif %}
+     
+            <a href="{{ site.url }}{{ post.url }}" class="post-title h3">{{ post.title }}</a>
+          <div>
+            {% set summary_array = 
+                post.blocks.content
+                  |raw
+                  |striptags
+                  |split(' ') 
+            %}
+{{ summary_array|slice(0,50)|join(' ') }}...
+<p>
+    <a href="{{ site.url }}{{ post.url }}" class="btn btn-primary">
+        view post &raquo;
+    </a>
+</p>
+        </div>
+    {% endfor %}
+
+<div>
+{% if page.pagination.previous_page or page.pagination.next_page %}
+    <nav class="article clearfix">
+    {% if page.pagination.previous_page %}
+    <a class="previous" href="{{ site.url }}{{ page.pagination.previous_page.url }}" title="Previous Page"><span class="title">Previous Page</span></a>
+    {% endif %}
+    {% if page.pagination.next_page %}
+    <a class="next" href="{{ site.url }}{{ page.pagination.next_page.url }}" title="Next Page"><span class="title">Next Page</span></a>
+    {% endif %}
+    </nav>
+{% endif %}
+</div>
+{% endblock %}

@@ -80,6 +80,46 @@ div.jumbotron {
     max-width: 1170px;
 }
 
+.name-social  {
+    ul {
+        @include display-flex;
+        @include justify-content(space-around);
+        @include align-items(center);
+        margin: 1em 0em;
+        padding: 0px;
+        width: 100%;
+    }
+    li {
+        list-style: none;
+    }
+}
+
+.project-image-header {
+    margin-bottom: 1em;
+}
+
+.project-teaser {
+    ul {
+        margin: 0em;
+        padding: 0em;
+    }
+
+    li {
+        border-bottom: dotted 1px $grey;
+        list-style: none;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+    }
+    li:first-child {
+        padding-top: 1em;
+    }
+
+    li:last-child {
+        border-bottom: none;
+    }
+}
+
+
 .project-title {
     background-color: $white;
     border: 1px solid $gray-lighter;
@@ -89,6 +129,14 @@ div.jumbotron {
     a {
         color: $grey;
     }
+}
+
+.project-title-teaser {
+    font-size: 1.6em;
+}
+
+.project-teaser-text .btn {
+    margin: 1em 0em;
 }
 
 .project-one.col-md-6 {
@@ -115,20 +163,48 @@ div.jumbotron {
 	}    
 }
 
-.well {
-    text-align: center;
+.sidebar-tools {
+    font-size: 1.2em;
+    h2 {
+        margin: 0px;
+    }
+    li {
+        clear: both;
+        padding: 0.3em 0em;
+    }
+
+    .fa-wrench {
+        float: left;
+        width: 2px;
+    }
 }
 
-.well.sidebar-nav {
-    background-color: $blue;
-    h3 {
-        color:$white;
+.well {
+    text-align: center;
+    ul {
+        padding: 0px;
     }
-    li,
-    a,
-    a:hover {
-        background-color: transparent !important;
+
+    li {
+        list-style: none;
+    }
+}
+
+.sidebar-contact {
+    @extend .well;
+    background-color: $blue !important;
+    color: $white;
+    display: block;
+    font-size: 1.8em;
+    padding: 1.3em 0em !important;
+    width: 100%;
+    &:hover {
+        background-color: darken($blue, 3%) !important;
         color: $white;
+    }
+
+    .fa-envelope-o {
+        margin-right: 15px;
     }
 }
 
