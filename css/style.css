@@ -29,7 +29,42 @@ h4 small {
   color: #888;
 }
 
-/* line 14, ../assets/sass/components/_layout.scss */
+/* line 12, ../assets/sass/components/_layout.scss */
+.article-content {
+  clear: both;
+}
+
+/* line 16, ../assets/sass/components/_layout.scss */
+.date {
+  background-color: #12A7C9;
+  color: white;
+  font-size: 0.90em;
+  float: left;
+  border-radius: 50%;
+  height: 75px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 75px;
+}
+
+/* line 29, ../assets/sass/components/_layout.scss */
+.day {
+  margin-top: -1px;
+}
+
+/* line 34, ../assets/sass/components/_layout.scss */
+.month {
+  font-size: .55em;
+  padding-top: 6px;
+}
+
+/* line 40, ../assets/sass/components/_layout.scss */
+.year {
+  font-size: .35em;
+}
+
+/* line 44, ../assets/sass/components/_layout.scss */
 footer.container {
   color: #555555;
   margin-top: 30px;
@@ -37,69 +72,69 @@ footer.container {
   border-top: 1px dashed #aaa;
 }
 
-/* line 21, ../assets/sass/components/_layout.scss */
+/* line 51, ../assets/sass/components/_layout.scss */
 .header-container {
   padding: 0px 15px;
 }
 
-/* line 26, ../assets/sass/components/_layout.scss */
+/* line 56, ../assets/sass/components/_layout.scss */
 .headshot img {
   max-width: 250px;
 }
 
-/* line 31, ../assets/sass/components/_layout.scss */
+/* line 61, ../assets/sass/components/_layout.scss */
 .hm-posts li:first-child {
   padding-left: 0px;
 }
 
-/* line 35, ../assets/sass/components/_layout.scss */
+/* line 65, ../assets/sass/components/_layout.scss */
 .hm-posts:last-child {
   padding-right: 0px;
 }
 
-/* line 40, ../assets/sass/components/_layout.scss */
+/* line 70, ../assets/sass/components/_layout.scss */
 .hm-posts li {
   list-style: none;
 }
 
-/* line 45, ../assets/sass/components/_layout.scss */
+/* line 75, ../assets/sass/components/_layout.scss */
 .image-header, .image-header-posts, .image-header-projects {
   margin-bottom: 1em;
 }
 
-/* line 57, ../assets/sass/components/_layout.scss */
+/* line 87, ../assets/sass/components/_layout.scss */
 div.jumbotron {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 60, ../assets/sass/components/_layout.scss */
+/* line 90, ../assets/sass/components/_layout.scss */
 div.jumbotron h1 {
   font-size: 50px;
   margin-top: 0px;
 }
 
-/* line 66, ../assets/sass/components/_layout.scss */
+/* line 96, ../assets/sass/components/_layout.scss */
 .container .jumbotron {
   margin-top: 30px;
 }
-/* line 68, ../assets/sass/components/_layout.scss */
+/* line 98, ../assets/sass/components/_layout.scss */
 .container .jumbotron h1 {
   color: #12A7C9;
 }
 
-/* line 73, ../assets/sass/components/_layout.scss */
+/* line 103, ../assets/sass/components/_layout.scss */
 .mainContent.container {
   margin-top: 4em;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 79, ../assets/sass/components/_layout.scss */
+/* line 109, ../assets/sass/components/_layout.scss */
 .mainContent, footer.container {
   max-width: 1170px;
 }
 
-/* line 84, ../assets/sass/components/_layout.scss */
+/* line 114, ../assets/sass/components/_layout.scss */
 .name-social ul {
   display: -webkit-flex;
   display: flex;
@@ -111,38 +146,38 @@ div.jumbotron h1 {
   padding: 0px;
   width: 100%;
 }
-/* line 92, ../assets/sass/components/_layout.scss */
+/* line 122, ../assets/sass/components/_layout.scss */
 .name-social li {
   list-style: none;
 }
 
-/* line 97, ../assets/sass/components/_layout.scss */
+/* line 127, ../assets/sass/components/_layout.scss */
 .project-image-header {
   margin-bottom: 1em;
 }
 
-/* line 102, ../assets/sass/components/_layout.scss */
+/* line 132, ../assets/sass/components/_layout.scss */
 .project-teaser ul {
   margin: 0em;
   padding: 0em;
 }
-/* line 107, ../assets/sass/components/_layout.scss */
+/* line 137, ../assets/sass/components/_layout.scss */
 .project-teaser li {
   border-bottom: dotted 1px #736f68;
   list-style: none;
   margin-bottom: 2em;
   padding-bottom: 1em;
 }
-/* line 113, ../assets/sass/components/_layout.scss */
+/* line 143, ../assets/sass/components/_layout.scss */
 .project-teaser li:first-child {
   padding-top: 1em;
 }
-/* line 117, ../assets/sass/components/_layout.scss */
+/* line 147, ../assets/sass/components/_layout.scss */
 .project-teaser li:last-child {
   border-bottom: none;
 }
 
-/* line 123, ../assets/sass/components/_layout.scss */
+/* line 153, ../assets/sass/components/_layout.scss */
 .project-title {
   background-color: #f7f9f9;
   border: 1px solid #eeeeee;
@@ -150,28 +185,28 @@ div.jumbotron h1 {
   padding: 10px 0px;
   text-align: center;
 }
-/* line 129, ../assets/sass/components/_layout.scss */
+/* line 159, ../assets/sass/components/_layout.scss */
 .project-title a {
   color: #736f68;
 }
 
-/* line 134, ../assets/sass/components/_layout.scss */
+/* line 164, ../assets/sass/components/_layout.scss */
 .project-title-teaser {
   font-size: 1.6em;
 }
 
-/* line 138, ../assets/sass/components/_layout.scss */
+/* line 168, ../assets/sass/components/_layout.scss */
 .project-teaser-text .btn {
   margin: 1em 0em;
 }
 
-/* line 142, ../assets/sass/components/_layout.scss */
+/* line 172, ../assets/sass/components/_layout.scss */
 .project-one.col-md-6 {
   padding: 0px 0px;
   margin-bottom: 2em;
 }
 @media (min-width: 992px) {
-  /* line 142, ../assets/sass/components/_layout.scss */
+  /* line 172, ../assets/sass/components/_layout.scss */
   .project-one.col-md-6 {
     margin-bottom: 0px;
     padding-left: 0px;
@@ -179,12 +214,12 @@ div.jumbotron h1 {
   }
 }
 
-/* line 152, ../assets/sass/components/_layout.scss */
+/* line 182, ../assets/sass/components/_layout.scss */
 .project-two.col-md-6 {
   padding: 0px 0px;
 }
 @media (min-width: 992px) {
-  /* line 152, ../assets/sass/components/_layout.scss */
+  /* line 182, ../assets/sass/components/_layout.scss */
   .project-two.col-md-6 {
     padding-right: 0px;
     padding-left: 15px;
@@ -192,45 +227,45 @@ div.jumbotron h1 {
 }
 
 @media (min-width: 768px) {
-  /* line 160, ../assets/sass/components/_layout.scss */
+  /* line 190, ../assets/sass/components/_layout.scss */
   .sidebar {
     padding-top: 30px;
   }
 }
 
-/* line 166, ../assets/sass/components/_layout.scss */
+/* line 196, ../assets/sass/components/_layout.scss */
 .sidebar-tools {
   font-size: 1.2em;
 }
-/* line 168, ../assets/sass/components/_layout.scss */
+/* line 198, ../assets/sass/components/_layout.scss */
 .sidebar-tools h2 {
   margin: 0px;
 }
-/* line 171, ../assets/sass/components/_layout.scss */
+/* line 201, ../assets/sass/components/_layout.scss */
 .sidebar-tools li {
   clear: both;
   padding: 0.3em 0em;
 }
-/* line 176, ../assets/sass/components/_layout.scss */
+/* line 206, ../assets/sass/components/_layout.scss */
 .sidebar-tools .fa-wrench {
   float: left;
   width: 2px;
 }
 
-/* line 182, ../assets/sass/components/_layout.scss */
+/* line 212, ../assets/sass/components/_layout.scss */
 .well, .sidebar-contact {
   text-align: center;
 }
-/* line 184, ../assets/sass/components/_layout.scss */
+/* line 214, ../assets/sass/components/_layout.scss */
 .well ul, .sidebar-contact ul {
   padding: 0px;
 }
-/* line 188, ../assets/sass/components/_layout.scss */
+/* line 218, ../assets/sass/components/_layout.scss */
 .well li, .sidebar-contact li {
   list-style: none;
 }
 
-/* line 193, ../assets/sass/components/_layout.scss */
+/* line 223, ../assets/sass/components/_layout.scss */
 .sidebar-contact {
   background-color: #12A7C9 !important;
   color: #f7f9f9;
@@ -239,12 +274,12 @@ div.jumbotron h1 {
   padding: 1.3em 0em !important;
   width: 100%;
 }
-/* line 201, ../assets/sass/components/_layout.scss */
+/* line 231, ../assets/sass/components/_layout.scss */
 .sidebar-contact:hover {
   background-color: #119bbb !important;
   color: #f7f9f9;
 }
-/* line 206, ../assets/sass/components/_layout.scss */
+/* line 236, ../assets/sass/components/_layout.scss */
 .sidebar-contact .fa-envelope-o {
   margin-right: 15px;
 }

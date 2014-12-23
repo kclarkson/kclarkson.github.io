@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-                <title> 2013 Drupalcamp Atlanta |  
+                <title> How to Exclude Block Content from Your Template in Twigsn |  
              Kaleem Clarkson -              Drupal front-end web developer and entrepreneur in Atlanta, Georgia         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,23 +57,54 @@
                 <div class="content col-md-8">
                         <article>
         <header>
-            <h2>2013 Drupalcamp Atlanta <small>project</small></h2>
-        </header>
-               <div class="image-header-projects">
-            <img src="/images/projects/2013drupalcampatlanta.jpg"></div>
-                <div> 
-            <p>Drupalcamp Atlanta in its 5th year with over 400 attendees is the largest Drupal Conference in the Southeast. This year's keynote speaker was Atlanta entrepreneur David Cummings, over 35 breakout sessions, and multiple tracks of programming. As you can imagine I was excited to be a part of the web development team for a conference that I love to attend. The actual Photoshop design was created by Sol Design Co but I was responsible for "theming" the page. Theming is when you take a mockup design and code it for the web. For this project I used SASS and Compass to help compile my CSS (Thanks Kendall !! ). I also did some advanced site building to develop the homepage slideshow, schedule, participants, and the random header image.</p>
+            <h2>
+                 
+                    		<div class="date">
+		        <div class="month"> Dec</div>
+		        <div class="day">14</div>
+		        <div class="year">2014</div>
+		</div>
+
+                                <div class="page-tite">How to Exclude Block Content from Your Template in Twigsn</div>
+            </h2>
+                    </header>
+        <div class="article-content">
+                 <div>
+            <p>When looking through the Twig Documentation an Sensio Labs you can often get lost in the great feature sets that come baked into twig. One of the awesome features in Twig is the ability to use the extends feature for templating. Verys similar to how you can use @extend in SASS to reuse code the extend feature is great.</p>
+
+<p>This is common when you want to re-use code from for the <head> tag.  Butwhat if you want to use some of the header code but want to cusomize some of it.</p>
+
+<p>Simple solution is give them blocks the print with a space empty.</p>
 
         </div>
-     <!--            -->
-
+    </div>
+                    <p class="categories">
+            Categories:
+                        <a href="/blog/categories/Front%20End">Front End</a>                        </p>
+                            <p class="tags">
+            Tags:
+                        <a href="/blog/tags/Sculpin">Sculpin</a>,                         <a href="/blog/tags/Markdown">Markdown</a>                        </p>
+        
                     <nav class="article">
                 <ul>
-                                            <li>Next: <a class="next" href="/project/2013/09/10/photos-by-amy" title="Photos by Amy"><span class="title">Photos by Amy</span></a></li>
-                                                                <li>Previous: <a class="previous" href="/project/2013/04/03/ksu-cetl" title="Center for Excellence in Teaching and Learning"><span class="title">Center for Excellence in Teaching and Learning</span></a></li>
+                                                                <li>Previous: <a class="previous" href="/blog/2014/12/12/dates-in-sculpin" title="Dates in Sculpin"><span class="title">Dates in Sculpin</span></a></li>
                                     </ul>
             </nav>
-            </article>
+                <div id="disqus_thread">
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'kaleemclarkson'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+     </article>
                 </div>
                 <div class="sidebar col-md-4">
                     

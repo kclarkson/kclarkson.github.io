@@ -9,8 +9,38 @@ h4 small {
     color: #888;
 }
 
+.article-content {
+    clear: both;
+}
 
+.date {
+    background-color: $blue;
+    color: white;
+    font-size: 0.90em;
+    float: left;
+    border-radius: 50%;
+    height: 75px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 75px;
+}
 
+.day {
+    margin-top: -1px;
+  
+}
+
+.month {
+    font-size: .55em;
+    padding-top: 6px;
+
+}
+
+.year {
+    font-size: .35em;
+
+}
 footer.container {
     color: $gray;
     margin-top: 30px;
