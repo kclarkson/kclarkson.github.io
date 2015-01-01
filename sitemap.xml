@@ -7,6 +7,12 @@
     <priority>0.8</priority>
   </url>
     <url>
+    <loc>/blog/2014/12/29/off-the-drupal-island-with-sculpin</loc>
+    <lastmod>2014-12-29T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
     <loc>/blog/2014/12/14/twig-extend-filter</loc>
     <lastmod>2014-12-14T00:00:00+01:00</lastmod>
     <changefreq>weekly</changefreq>

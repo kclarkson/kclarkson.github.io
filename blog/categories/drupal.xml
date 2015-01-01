@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Kaleem Clarkson]]></title>
-    <link href="/atom.xml" rel="self"/>
+    <link href="/blog/categories/drupal.xml" rel="self"/>
     <link href="/"/>
     <updated>2015-01-01T20:45:08+01:00</updated>
     <id>/</id>
@@ -16,20 +16,6 @@
 <p>But last holiday season (2013) we started hearing a lot more about Drupal 8 and how important it is to adopt some standards from other web development initiatives in the hopes of attracting more outside developers as well as making Drupal more maintainable.  Another phrase we heard was "get off the Drupal island", that was coined by the Larry Garfield.  You can read more of his blog post here.  His main points were that too many times Drupal Developers were stuck in our own community and that it was important to learn</p>
 
 <p>Sculpin - I first discovered Sculpin when searching for static site Generator found sculpin when</p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[How to Remove Block Content from an Inherited Template in Twig]]></title>
-            <link href="/blog/2014/12/14/twig-extend-filter"/>
-            <updated>2014-12-14T00:00:00+01:00</updated>
-            <id>/blog/2014/12/14/twig-extend-filter</id>
-            <content type="html"><![CDATA[<p>When looking through the Twig Documentation by the awesome folks at Sensio Labs you can often get lost in the robust set of features  that come baked into twig.</p>
-
-<p>One of the awesome features in Twig is the ability to use the extends feature for templating. Verys similar to how you can use @extend in SASS to reuse code the extend feature is great.</p>
-
-<p>This is common when you want to re-use code from for the <head> tag.  Butwhat if you want to use some of the header code but want to cusomize some of it.</p>
-
-<p>Simple solution is give them blocks the print with a space empty.</p>
 ]]></content>
         </entry>
     </feed>
