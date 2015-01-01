@@ -8,9 +8,9 @@
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <image>
-                <url>/images/posts/drupal.island.jpg</url>
+                <url>http://kaleemclarkson.com/images/posts/drupal.island.jpg</url>
     <title>Off the Drupal Island with Sculpin Static Site Generator</title>
-    <link>/blog/2014/12/29/off-the-drupal-island-with-sculpin</link>
+    <link>http://kaleemclarkson.com/blog/2014/12/29/off-the-drupal-island-with-sculpin</link>
     </image>
   
             <title type="html"><![CDATA[Off the Drupal Island with Sculpin Static Site Generator]]></title>
