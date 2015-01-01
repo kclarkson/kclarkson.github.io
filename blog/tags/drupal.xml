@@ -4,7 +4,7 @@
    <title>W3Schools Home Page</title>
    <link>http://www.w3schools.com</link>
    <description>Free web building tutorials</description>
-   <logo>images/images/posts/drupal.island.jpg</logo>
+   <logo>/images/posts/drupal.island.jpg</logo>
    <item>
      <title>RSS Tutorial</title>
      <link>http://www.w3schools.com/rss</link>
