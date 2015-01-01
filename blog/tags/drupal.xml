@@ -1,27 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title><![CDATA[Kaleem Clarkson]]></title>
-    <link href="/blog/tags/drupal.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2015-01-01T20:45:08+01:00</updated>
-    <id>/</id>
-        <generator uri="http://sculpin.io/">Sculpin</generator>
-            <channel>
-            <image>
-                <url>http://kaleemclarkson.com/images/posts/drupal.island.jpg</url>
-    <title>Off the Drupal Island with Sculpin Static Site Generator</title>
-    <link>http://kaleemclarkson.com/blog/2014/12/29/off-the-drupal-island-with-sculpin</link>
-    </image>
-  
-            <title type="html"><![CDATA[Off the Drupal Island with Sculpin Static Site Generator]]></title>
-            <link href="/blog/2014/12/29/off-the-drupal-island-with-sculpin"/>
-            <updated>2014-12-29T00:00:00+01:00</updated>
-            <id>/blog/2014/12/29/off-the-drupal-island-with-sculpin</id>
-            <content type="html"><![CDATA[<p>As a Drupal evangelist I am usually the person in the room that says "it can be done in Drupal, lets just figure it out." After taking the red pill and entering the Druprix it can be very difficult to stop your client work and step off the Drupal Island to once again become a newb.</p>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+   <title>W3Schools Home Page</title>
+   <link>http://www.w3schools.com</link>
+   <description>Free web building tutorials</description>
+   <image>
+     <url>/images/w3schools_green.jpg</url>
+     <title>W3Schools.com</title>
+     <link>http://www.w3schools.com</link>
+   </image>
+   <item>
+     <title>RSS Tutorial</title>
+     <link>http://www.w3schools.com/rss</link>
+     <description>RSS tutorial on W3Schools</description>
+   </item>
+ </channel>
+</rss>
 
-<p>But last holiday season (2013) we started hearing a lot more about Drupal 8 and how important it is to adopt some standards from other web development initiatives in the hopes of attracting more outside developers as well as making Drupal more maintainable.  Another phrase we heard was "get off the Drupal island", that was coined by the Larry Garfield.  You can read more of his blog post here.  His main points were that too many times Drupal Developers were stuck in our own community and that it was important to learn</p>
-
-<p>Sculpin - I first discovered Sculpin when searching for static site Generator found sculpin when</p>
-]]></content>
-        </channel>
-    </feed>
