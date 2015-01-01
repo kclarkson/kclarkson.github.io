@@ -4,11 +4,11 @@
    <title>W3Schools Home Page</title>
    <link>http://www.w3schools.com</link>
    <description>Free web building tutorials</description>
-   <image>
+   <logo>
      <url>http://www.w3schools.com/images/w3schools_green.jpg</url>
      <title>W3Schools.com</title>
      <link>http://www.w3schools.com</link>
-   </image>
+   </logo>
    <item>
      <title>RSS Tutorial</title>
      <link>http://www.w3schools.com/rss</link>
