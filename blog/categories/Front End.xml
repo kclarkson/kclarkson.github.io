@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Kaleem Clarkson]]></title>
-    <link href="/atom.xml" rel="self"/>
+    <link href="/blog/categories/Front End.xml" rel="self"/>
     <link href="/"/>
     <updated>2015-01-01T20:41:26+01:00</updated>
     <id>/</id>

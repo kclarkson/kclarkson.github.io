@@ -1,0 +1,37 @@
+<p>It was a late night in November after one of my sons freezing football games where all limbs had lost just a little bit of feeling. After a hot coffee and some heat I was eager to work on a project. Open my terminal and run compass watch and whack errors everywhere !@#@(%#@# is what I screamed outloud to myself.</p>
+
+<p>I stared at the screen with that familiar feeling that I was now lost in the conflicting rubies purgatory.  But wait Bundler to the Rescue!!</p>
+
+<p>What Causes the Error
+Sometimes for me understanding why things are going wrong provides a sense of clarity to the situation. So what is really going on? These errors are happening because they are conflicting because one of your projects may require 1.1 of a gem you have 1.2 installed.  So the lazy suggestions would be to delte the wrong gem.  But wait!!!!! When you go back to your previous project you more errors will arise. When working with different frameworks that have ruby gem dependencies</p>
+
+<p>Solution:
+So how could we install different versions of the needed gems and tell the specific project which ones to use? Or how could we prevent the errors</p>
+
+<p>Well what if</p>
+
+<p>Implement in Your Workflow: Don't Get Lazy:</p>
+
+<p>You see I had just returned from BadCamp in San Francisco so I had all sorts of things on my local computer. Drupal 8 which needed a Drush update, Sculpin my static generator for my github page and other compass theming projects.</p>
+
+<p>Bundler to the Rescue!!  The worst part is that I had installed bundler over a year ago. But after a few times of not implementing into my workflow I forgot about it and was to use a similar stack for a while.  Then one day boom! Conflicting rubies errors everywhere.</p>
+
+<p>So I took a deep breath and really tooke the time to understand the concept of bundler.  Well it keeps the required gems in its own little bundle. hahaha see what did did there?</p>
+
+<p>So as along as you create a specific gem file in your project, run bundle install, then to watch or compiling your css you would run</p>
+
+<pre><code>"bundle exec watch" or "bundle exec compile".
+</code></pre>
+
+<p>I asked someone well don't you hate writing "bundle exec" before all of your commands?  And he said, you only have to "watch" in the begining so its totally worth the 11 extra key strokes.</p>
+
+<p>You can also use <a href="http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks">fenced code blocks</a> with a syntax declaration at the top.
+The markers are <code>~</code> instead of <code>`</code>.</p>
+
+<pre><code class="php">if ($fencedCodeBlock-&gt;syntax !== 'PHP') {
+    throw new UnexpectedValueException("wat");
+}
+</code></pre>
+
+<p>Like this addition to the skeleton? You can thank for <a href="https://github.com/Pawka">@Pawka</a>
+for suggesting it. :)</p>

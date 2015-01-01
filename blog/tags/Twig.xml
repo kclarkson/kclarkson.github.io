@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Kaleem Clarkson]]></title>
-    <link href="/atom.xml" rel="self"/>
+    <link href="/blog/tags/Twig.xml" rel="self"/>
     <link href="/"/>
     <updated>2015-01-01T20:41:26+01:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
+            <image>
+                <url><![CDATA[/]]></url>
+    <title>How to Remove Block Content from an Inherited Template in Twig</title>
+    <link>/blog/2014/12/14/twig-extend-filter</link>
+    </image>
+  
             <title type="html"><![CDATA[How to Remove Block Content from an Inherited Template in Twig]]></title>
             <link href="/blog/2014/12/14/twig-extend-filter"/>
             <updated>2014-12-14T00:00:00+01:00</updated>
