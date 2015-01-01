@@ -6,7 +6,7 @@
     <updated>2015-01-01T20:45:08+01:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
-            <entry>
+            <channel>
             <image>
                 <url>http://kaleemclarkson.com/images/posts/drupal.island.jpg</url>
     <title>Off the Drupal Island with Sculpin Static Site Generator</title>
@@ -23,5 +23,5 @@
 
 <p>Sculpin - I first discovered Sculpin when searching for static site Generator found sculpin when</p>
 ]]></content>
-        </entry>
+        </channel>
     </feed>
