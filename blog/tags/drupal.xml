@@ -7,7 +7,7 @@
     <id>/blog/tags/drupal.xml</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
-            <content type="html"> <![CDATA[ <img src="images/posts/drupal.island.jpg" alt="Off the Drupal Island with Sculpin Static Site Generator" style="width:204px;height:150px"]]></content>
+            <content type="html"> <![CDATA[ <img src="http://kaleemclarkson.com/images/posts/drupal.island.jpg" alt="Off the Drupal Island with Sculpin Static Site Generator" style="width:204px;height:150px"]]></content>
             <title type="html"><![CDATA[Off the Drupal Island with Sculpin Static Site Generator]]></title>
             <link href="/blog/2014/12/29/off-the-drupal-island-with-sculpin"/>
             <updated>2014-12-29T00:00:00+01:00</updated>
