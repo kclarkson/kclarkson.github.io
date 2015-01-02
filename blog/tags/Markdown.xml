@@ -2,17 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Kaleem Clarkson]]></title>
     <link href="/blog/tags/Markdown.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2015-01-01T20:45:08+01:00</updated>
-    <id>/</id>
+    <link href=""/>
+    <updated>2015-01-02T02:40:13+01:00</updated>
+    <id>/blog/tags/Markdown.xml</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
-            <image>
-                <url><![CDATA[/]]></url>
-    <title>How to Remove Block Content from an Inherited Template in Twig</title>
-    <link>/blog/2014/12/14/twig-extend-filter</link>
-    </image>
-  
+            <content type="html"> <![CDATA[ <img src="" alt="How to Remove Block Content from an Inherited Template in Twig" style="width:204px;height:150px"]]></content>
             <title type="html"><![CDATA[How to Remove Block Content from an Inherited Template in Twig]]></title>
             <link href="/blog/2014/12/14/twig-extend-filter"/>
             <updated>2014-12-14T00:00:00+01:00</updated>
