@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Kaleem Clarkson]]></title>
-    <link href="http://kaleemclarkson.com/atom.xml" rel="self"/>
-    <link href="http://kaleemclarkson.com/"/>
-    <updated>2015-01-05T01:34:58+01:00</updated>
-    <id>http://kaleemclarkson.com/</id>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2015-01-05T01:43:17+01:00</updated>
+    <id>/</id>
             <author>
             <name><![CDATA[Kaleem Clarkson]]></name>                    </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[A New Year with a New outLook on Personal Branding]]></title>
-            <link href="http://kaleemclarkson.com/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding"/>
+            <link href="/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding"/>
             <updated>2015-01-05T00:00:00+01:00</updated>
-            <id>http://kaleemclarkson.com/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding</id>
+            <id>/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding</id>
             <content type="html"><![CDATA[<p>New Years is by far the best holiday. Why you ask? Well for starters there is neither the stress of having to purchase gifts, nor the fortitude it takes to prepare a large meal for thirty, and its the only holiday which comes to mind that every country, race, religious or political affiliation celebrate. But for me the icing on the cake is the euphoria of creativity, potential, and optimism that is shared by millions all over the world.</p>
 
 <p>In a recent <a href="http://www.huffingtonpost.com/louise-firth-campbell-/post_6564_b_4602842.html">study by University of Scranton</a> it was determined that only <b>1 in 8</b> people will keep their new year resolutions. While the statistics are against us for following through on resolutions the more encouraging and exciting statistic showed that "people who make a New Year's resolution are 10 times more likely to change their lives than those who don't." So like someone in my family used to say about the lottery, &ldquo;if you don&rsquo;t play, you can&rsquo;t win.&rdquo;</p>
