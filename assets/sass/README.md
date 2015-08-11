@@ -1,4 +1,4 @@
-<h2>CSS Structure is based on the Drupal Omega Theme file structure mainly because it makes the most sense to me.</h2>
+<h2 id="css-structure-is-based-on-the-drupal-omega-theme-file-structure-mainly-because-it-makes-the-most-sense-to-me.">CSS Structure is based on the Drupal Omega Theme file structure mainly because it makes the most sense to me.</h2>
 
 <p>Thanks to Fred Parke's for writing the best blog post I could find that explaines a good SASS file struction. Its a great read: http://www.fredparke.com/blog/get-aquainted-omegas-sass-file-structure</p>
 

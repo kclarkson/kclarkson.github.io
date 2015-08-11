@@ -1,4 +1,4 @@
-<h1>Base styes</h1>
+<h1 id="base-styes">Base styes</h1>
 
 <p>Base styles define the default look for HTML and, to some extent, common Drupal
 elements.</p>

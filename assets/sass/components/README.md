@@ -1,4 +1,4 @@
-<h1>Components</h1>
+<h1 id="components">Components</h1>
 
 <p>This directory should contain full components (modules in SMACSS), their
 sub-components and modifiers.</p>
@@ -23,7 +23,7 @@ can then be used within other components.</p>
 
 <p>Almost everything that doesn't belong in base should be made a component.</p>
 
-<h2>Some common examples throughout Drupal</h2>
+<h2 id="some-common-examples-throughout-drupal">Some common examples throughout Drupal</h2>
 
 <ul>
 <li>Blocks</li>
