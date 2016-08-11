@@ -2,11 +2,19 @@
 <html prefix="og: http://ogp.me/ns#">
     <head>
                 <title>
-             Belton Construction |  
+             Drupal 8, CMI, GIT and Pantheon makes me smile| 
              Kaleem Clarkson -              Drupal front-end web developer and entrepreneur in Atlanta, Georgia         </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link href="/css/style.css" rel="stylesheet" type="text/css" />
+         
+<meta property="og:title" content="Drupal 8, CMI, GIT and Pantheon makes me smile"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="/blog/2016/06/26/Drupal8-cmi.pantheon"/>
+<meta property="og:description" content="In Drupal 8 the Configuration Management Initative (CMI) has finally given us the ability to move configuration settings in version control (Git) verus using features or exporting the database manually ..."/>
+<meta property="og:image" content="/images/posts/2016.happygit.jpg"/>
+<meta property="og:image:width" content="600"/>
+
+       <link href="/css/style.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
         <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Kaleem Clarkson activity feed" />
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -53,23 +61,54 @@
                 <div class="content col-md-8">
                         <article>
         <header>
-            <h2>Belton Construction <small>project</small></h2>
-        </header>
-               <div class="image-header-projects">
-            <img src="/images/projects/beltonconstruction.jpg"></div>
-                <div> 
-            <p>Belton Construction installs hurricane impact windows in Florida. For this client we decided on redeveloping their brand through a newly designed logo and clear message.  Our goal was to create a simple site that highlighted the type of work they did along while also creating a sales funnel by making the contact form easily acessible on every page. For this project I decided on using the <a href="http://drupal.org/project/radix">Radix</a> base theme as it comes baked with SASS Bootstrap and works well with Panels.</p>
+            <h2>
+                 
+                    		<div class="date">
+		        <div class="month"> Jun</div>
+		        <div class="day">26</div>
+		        <div class="year">2016</div>
+		</div>
+
+                                <div class="page-tite">Drupal 8, CMI, GIT and Pantheon makes me smile</div>
+            </h2>
+                    </header>
+        <div class="article-content">
+                <div class="image-header-posts">
+            <img src="/images/posts/2016.happygit.jpg"></div>
+                <div>
+            <p>I host all of my websites on <a href="http://www.pantheon.io">Pantheon</a>, because of the great web development tools that seamlessly integrate with Drush, Git and the Drupal's CMI. For Drupal 7 in order for us to move configuration settings into version control we had to use the <a href="http://www.drupal.org/project/features">Features Module </a> to move settings (views, site name, content type fields etc..) from our local computer to a staging or production server. Or live on the edge by manually exporting and importing your database with the risk of overriding changes.  And if you had to work on a team forget about it!</p>
+
+<p>Enter <a href="http://www.drupal.org">Drupal 8</a>.  Yes it took 5 years for the release but I would have waited 6 years just for the Configuration Management Initiative (CMI) to be implmented.  Why am I so happy for CMI? Well thats because Drupal now ships with a option to transfer configuration from local, dev, test to live without having to use features or export the database. Not only can you accomplish this using the UI within Drupal but with just few minor changes you can use GIT and Drush to push all of your configuration between environments without ever having to leave your terminal.</p>
 
         </div>
-     <!--            -->
-
+    </div>
+                    <p class="categories">
+            Categories:
+                        <a href="/blog/categories/Drupal%20Planet">Drupal Planet</a>                        </p>
+                            <p class="tags">
+            Tags:
+                        <a href="/blog/tags/Drupal%208">Drupal 8</a>,                         <a href="/blog/tags/Git">Git</a>,                         <a href="/blog/tags/Pantheon">Pantheon</a>                        </p>
+        
                     <nav class="article">
                 <ul>
-                                            <li>Next: <a class="next" href="/project/2014/10/04/drupalcamp-atlanta" title="2014 Drupalcamp Atlanta"><span class="title">2014 Drupalcamp Atlanta</span></a></li>
-                                                                <li>Previous: <a class="previous" href="/project/2013/09/10/photos-by-amy" title="Photos by Amy"><span class="title">Photos by Amy</span></a></li>
+                                                                <li>Previous: <a class="previous" href="/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding" title="A New Year with a New outLook on Personal Branding"><span class="title">A New Year with a New outLook on Personal Branding</span></a></li>
                                     </ul>
             </nav>
-            </article>
+                <div id="disqus_thread">
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'kaleemclarkson'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+     </article>
                 </div>
                 <div class="sidebar col-md-4">
                     
