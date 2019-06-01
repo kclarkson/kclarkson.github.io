@@ -1,0 +1,29 @@
+@import "variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/highlightjs/styles/github.css";
+
+
+@import "layout";
+@import "navbar";
+
+// Meddia Queries for Bootstrap 4 
+// @include media-breakpoint-up(xs) { ... }
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+
+
+@media (max-width: 767px) {
+    .sidebar {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 980px) {
+    body {
+        padding-bottom: 40px;
+    }
+}
+
+

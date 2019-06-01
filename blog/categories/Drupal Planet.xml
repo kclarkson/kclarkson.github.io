@@ -3,16 +3,16 @@
     <title><![CDATA[Kaleem Clarkson]]></title>
     <link href="/blog/categories/Drupal Planet.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-08-11T18:47:41+02:00</updated>
+    <updated>2019-06-01T17:41:36+00:00</updated>
     <id>/</id>
             <author>
             <name><![CDATA[Kaleem Clarkson]]></name>                    </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Drupal 8, CMI, GIT and Pantheon makes me smile]]></title>
-            <link href="/blog/2016/06/26/Drupal8-cmi.pantheon"/>
-            <updated>2016-06-26T00:00:00+02:00</updated>
-            <id>/blog/2016/06/26/Drupal8-cmi.pantheon</id>
+            <link href="/blog/2016/06/26/Drupal8-cmi.pantheon/"/>
+            <updated>2016-06-26T00:00:00+00:00</updated>
+            <id>/blog/2016/06/26/Drupal8-cmi.pantheon/</id>
             <content type="html"><![CDATA[<p>I host all of my websites on <a href="http://www.pantheon.io">Pantheon</a>, because of the great web development tools that seamlessly integrate with Drush, Git and the Drupal's CMI. For Drupal 7 in order for us to move configuration settings into version control we had to use the <a href="http://www.drupal.org/project/features">Features Module </a> to move settings (views, site name, content type fields etc..) from our local computer to a staging or production server. Or live on the edge by manually exporting and importing your database with the risk of overriding changes.  And if you had to work on a team forget about it!</p>
 
 <p>Enter <a href="http://www.drupal.org">Drupal 8</a>.  Yes it took 5 years for the release but I would have waited 6 years just for the Configuration Management Initiative (CMI) to be implmented.  Why am I so happy for CMI? Well thats because Drupal now ships with a option to transfer configuration from local, dev, test to live without having to use features or export the database. Not only can you accomplish this using the UI within Drupal but with just few minor changes you can use GIT and Drush to push all of your configuration between environments without ever having to leave your terminal.</p>

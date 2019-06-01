@@ -3,26 +3,100 @@
     <title><![CDATA[Kaleem Clarkson]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2016-08-11T18:47:41+02:00</updated>
+    <updated>2019-06-01T17:41:36+00:00</updated>
     <id>/</id>
             <author>
             <name><![CDATA[Kaleem Clarkson]]></name>                    </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
+            <title type="html"><![CDATA[How to Ignore Local Changes to Your settings.php File in Drupal 8 with Git]]></title>
+            <link href="/blog/2019/01/30/how-to-ignore-local-changes-to-your-settingsphp-file-with-git/"/>
+            <updated>2019-01-30T00:00:00+00:00</updated>
+            <id>/blog/2019/01/30/how-to-ignore-local-changes-to-your-settingsphp-file-with-git/</id>
+            <content type="html"><![CDATA[<p>As many of you know, I am a huge Pantheon hosting fanboy and can still remember the days during the beta launch of being blown away that I have three different environments out of the box, with dev, test and live. Another great service they added recently is that all sites receive SSL certificates automatically and all you have to do is redirect all traffic to use HTTPS. In Drupal 8 they suggest doing this in your settings.php file.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[An 8-Year-Old Drupal Core Issue That the Community Needs Help to Solve]]></title>
+            <link href="/blog/2018/12/28/an-drupal-core-issue-needs-help/"/>
+            <updated>2018-12-28T00:00:00+00:00</updated>
+            <id>/blog/2018/12/28/an-drupal-core-issue-needs-help/</id>
+            <content type="html"><![CDATA[<p>One of the many great advantages of being a part of an open source project is that there are so many smart people out there are willing to contribute their time for the betterment of the project. This ability to crowdsource bugs and feature requests that rarely stumps the community is what makes Drupal such a powerful application.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Your Holiday Gift from DrupalCamp Atlanta. Session Videos Now Live]]></title>
+            <link href="/blog/2018/12/20/drupalcamp-atlanta-videos-available/"/>
+            <updated>2018-12-20T00:00:00+00:00</updated>
+            <id>/blog/2018/12/20/drupalcamp-atlanta-videos-available/</id>
+            <content type="html"><![CDATA[<p>Thanks to all of the presenters and participants who attended 2018 DrupalCamp Atlanta (DCATL). We are excited to provide you with a little holiday gift. The Session Videos are now live. View here</p>
+
+<p>I would also like to thank the awesome DCATL team that I had the pleasure to work with:</p>
+
+<pre><code>Sarah Golden — Acquia
+Nikki Smith — Sevaa
+Zach Sines — Manhattan Associates
+Taylor Wright
+</code></pre>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Drupal Event Organizers 1st Meeting Recap. Next Meeting Jan 8, 2019]]></title>
+            <link href="/blog/2018/11/23/drupal-event-organizers-meeting-recap/"/>
+            <updated>2018-11-23T00:00:00+00:00</updated>
+            <id>/blog/2018/11/23/drupal-event-organizers-meeting-recap/</id>
+            <content type="html"><![CDATA[<p>It’s been almost one month since I wrote the blog post, “DrupalCamp Organizers Unite: Is it Time for Camp Organizers to Become an Official Working Group” and a ton of things have transpired that will catapult us into 2019 with some great momentum. With the support of the many Drupal evangelists, over 50 Drupal event organizers from around the world signed up to attend our first official / unofficial video call.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Sponsoring a DrupalCamp is Not About the Return on Investment (ROI).]]></title>
+            <link href="/blog/2018/11/02/sponsoring-drupalcamp-not-about-roi/"/>
+            <updated>2018-11-02T00:00:00+00:00</updated>
+            <id>/blog/2018/11/02/sponsoring-drupalcamp-not-about-roi/</id>
+            <content type="html"><![CDATA[<p>Organizing a DrupalCamp takes a lot of commitment from volunteers, so when someone gets motivated to help organize these events, the financial risks can be quite alarming and sometimes overwhelming. But forget all that mess, you are a Drupal enthusiast and have drummed up the courage to volunteer with the organization of your local DrupalCamp. During your first meeting, you find out that there are no free college or community spaces in the area and the estimated price tag is $25,000. Holy Batman that is a lot of money!</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[DrupalCamp Organizers Unite. Is it Time for Camp Organizers to Become an Official Working Group?]]></title>
+            <link href="/blog/2018/10/27/drupalcamp-organizers-unite/"/>
+            <updated>2018-10-27T00:00:00+00:00</updated>
+            <id>/blog/2018/10/27/drupalcamp-organizers-unite/</id>
+            <content type="html"><![CDATA[<p>Community, community and more community. One of the common themes we hear when it comes to evaluating Drupal against other content management systems (CMS), is that the community is made up of over 100,000 highly skilled and passionate developers who contribute code. And in many of these application evaluations, it’s the community, not the software that leads to Drupal winning the bid. We have also heard Dries Buytaert speak about the importance of the community at various DrupalCons and he is quoted on Drupal.org’s getting involved page. “It’s really the Drupal community and not so much the software that makes the Drupal project what it is. So fostering the Drupal community is actually more important than just managing the code base.” — Dries Buytaert</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[How to Add Blocks in Paragraphs for Drupal 8]]></title>
+            <link href="/blog/2018/10/20/add-blocks-in-paragraphs/"/>
+            <updated>2018-10-20T00:00:00+00:00</updated>
+            <id>/blog/2018/10/20/add-blocks-in-paragraphs/</id>
+            <content type="html"><![CDATA[<p>In years past, layout for Drupal has been in the hands of front-end developers, but over time various modules were developed that provided site-builders the ability to adjust the layout. An improvement yes, but there still wasn’t a clear cut option that empowered content editors to alter the layout during the editorial process.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Is Remote Work the Answer to the Family Holiday Question?]]></title>
+            <link href="/blog/2017/01/17/is-remote-work-the-answer/"/>
+            <updated>2017-01-17T00:00:00+00:00</updated>
+            <id>/blog/2017/01/17/is-remote-work-the-answer/</id>
+            <content type="html"><![CDATA[<p>This past Christmas my wife (Jennifer C Clarkson), our 3 year old daughter and I, packed up the suitcases and headed to the Atlanta airport in route to visit Grammie Maine. If you hadn’t guessed it, our daughter named her grandmother who lives in Maine, Grammie Maine. Of course the biggest questions for our little one were, how is Santa going to know where to leave her presents and will there be snow so she can make snow angels and bring Frosty the Snowman to life? This year she was pleasantly surprised to learn that Santa found her 1,156 miles from her house and there were piles of fluffy white stuff for snow angels and Frosty the Snowman.</p>
+
+<p>For her Maine native parents though, it is only a matter of time before their family and friends ask the question.</p>
+]]></content>
+        </entry>
+            <entry>
             <title type="html"><![CDATA[Drupal 8, CMI, GIT and Pantheon makes me smile]]></title>
-            <link href="/blog/2016/06/26/Drupal8-cmi.pantheon"/>
-            <updated>2016-06-26T00:00:00+02:00</updated>
-            <id>/blog/2016/06/26/Drupal8-cmi.pantheon</id>
+            <link href="/blog/2016/06/26/Drupal8-cmi.pantheon/"/>
+            <updated>2016-06-26T00:00:00+00:00</updated>
+            <id>/blog/2016/06/26/Drupal8-cmi.pantheon/</id>
             <content type="html"><![CDATA[<p>I host all of my websites on <a href="http://www.pantheon.io">Pantheon</a>, because of the great web development tools that seamlessly integrate with Drush, Git and the Drupal's CMI. For Drupal 7 in order for us to move configuration settings into version control we had to use the <a href="http://www.drupal.org/project/features">Features Module </a> to move settings (views, site name, content type fields etc..) from our local computer to a staging or production server. Or live on the edge by manually exporting and importing your database with the risk of overriding changes.  And if you had to work on a team forget about it!</p>
 
 <p>Enter <a href="http://www.drupal.org">Drupal 8</a>.  Yes it took 5 years for the release but I would have waited 6 years just for the Configuration Management Initiative (CMI) to be implmented.  Why am I so happy for CMI? Well thats because Drupal now ships with a option to transfer configuration from local, dev, test to live without having to use features or export the database. Not only can you accomplish this using the UI within Drupal but with just few minor changes you can use GIT and Drush to push all of your configuration between environments without ever having to leave your terminal.</p>
 ]]></content>
         </entry>
             <entry>
-            <title type="html"><![CDATA[A New Year with a New outLook on Personal Branding]]></title>
-            <link href="/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding"/>
-            <updated>2015-01-05T00:00:00+01:00</updated>
-            <id>/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding</id>
+            <title type="html"><![CDATA[Custom Upstreams with Pantheon]]></title>
+            <link href="/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding/"/>
+            <updated>2015-01-05T00:00:00+00:00</updated>
+            <id>/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding/</id>
             <content type="html"><![CDATA[<p>New Years is by far the best holiday. Why you ask? Well for starters there is neither the stress of having to purchase gifts, nor the fortitude it takes to prepare a large meal for thirty, and its the only holiday which comes to mind that every country, race, religious or political affiliation celebrate. But for me the icing on the cake is the euphoria of creativity, potential, and optimism that is shared by millions all over the world.</p>
 
 <p>In a recent <a href="http://www.huffingtonpost.com/louise-firth-campbell-/post_6564_b_4602842.html">study by University of Scranton</a> it was determined that only <b>1 in 8</b> people will keep their new year resolutions. While the statistics are against us for following through on resolutions the more encouraging and exciting statistic showed that "people who make a New Year's resolution are 10 times more likely to change their lives than those who don't." So like someone in my family used to say about the lottery, &ldquo;if you don&rsquo;t play, you can&rsquo;t win.&rdquo;</p>

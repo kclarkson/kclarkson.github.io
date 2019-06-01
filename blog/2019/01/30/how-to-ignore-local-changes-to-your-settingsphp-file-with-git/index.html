@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>How to Ignore Local Changes to Your settings.php File in Drupal 8 with Git | Kaleem Clarkson | Drupal front-end web developer and entrepreneur in Atlanta, Georgia</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="robots" content="index, follow">
+         
+<meta property="og:title" content="How to Ignore Local Changes to Your settings.php File in Drupal 8 with Git"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="/blog/2019/01/30/how-to-ignore-local-changes-to-your-settingsphp-file-with-git/"/>
+<meta property="og:description" content=""/>
+<meta property="og:image" content="/"/>
+<meta property="og:image:width" content="600"/>
+
+        <link rel="stylesheet" href="/build/app.css">
+        <script src="https://use.fontawesome.com/f516181bbc.js"></script>
+
+
+    
+
+        <link rel="apple-touch-startup-image" href="/build/2048x2048.png">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" sizes="76x76" href="/build/jackson/76x76.png">
+        <link rel="shortcut icon" sizes="120x120" href="/build/jackson/120x120.png">
+        <link rel="shortcut icon" sizes="128x128" href="/build/jackson/128x128.png">
+        <link rel="shortcut icon" sizes="152x152" href="/build/jackson/152x152.png">
+        <link rel="shortcut icon" sizes="196x196" href="/build/jackson/196x196.png">
+        <link rel="shortcut icon" sizes="512x512" href="/build/jackson/512x512.png">
+        <link rel="shortcut icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
+        <link rel="shortcut icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/build/jackson/76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/build/jackson/120x120.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/build/jackson/128x128.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/build/jackson/152x152.png">
+        <link rel="apple-touch-icon" sizes="196x196" href="/build/jackson/196x196.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/build/jackson/512x512.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="/build/jackson/1024x1024.png">
+        <link rel="apple-touch-icon" sizes="2048x2048" href="/build/jackson/2048x2048.png">
+
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Kaleem Clarkson activity feed" />
+                                    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <a class="navbar-brand" href="/">
+                            <div class ="brand-name">clarkson</div>
+                            <div class="brand-number">55</div>
+                        </a>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="/projects">portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/about">about me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/contact">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main role="main" class="container">
+            <div class="main-wrapper">
+
+                <div class="col-lg-8 main-content">
+                        <article>
+        <header>
+            <h2>
+                 
+                    		<div class="date">
+		        <div class="month"> Jan</div>
+		        <div class="day">30</div>
+		        <div class="year">2019</div>
+		</div>
+
+                                <div class="page-tite">How to Ignore Local Changes to Your settings.php File in Drupal 8 with Git</div>
+            </h2>
+                    </header>
+        <div class="article-content">
+                       <div>
+               <p>As many of you know, I am a huge Pantheon hosting fanboy and can still remember the days during the beta launch of being blown away that I have three different environments out of the box, with dev, test and live. Another great service they added recently is that all sites receive SSL certificates automatically and all you have to do is redirect all traffic to use HTTPS. In Drupal 8 they suggest doing this in your settings.php file.</p>
+
+           </div>
+       </div>
+                
+                    <nav class="article">
+                <ul>
+                                                                <li>Previous: <a class="previous" href="/blog/2018/12/28/an-drupal-core-issue-needs-help/" title="An 8-Year-Old Drupal Core Issue That the Community Needs Help to Solve"><span class="title">An 8-Year-Old Drupal Core Issue That the Community Needs Help to Solve</span></a></li>
+                                    </ul>
+            </nav>
+            </article>
+
+
+
+                </div>
+
+                <div class="col-lg-4 sidebar">
+
+                    <div class="card bg-light">
+                        <div class="headshot-container">
+                            <a href="/about" class="headshot">
+                                <img src="/images/clarkson.headshot.png">
+                            </a>
+                        </div>
+                        <div class="name-social">
+                            <h3>Kaleem Clarkson</h3>
+                             
+                            <small>Drupal front-end web developer and entrepreneur in Atlanta, Georgia</small>
+                                                        <ul>
+                                <li><a href="https://www.drupal.org/u/kclarkson"><i class="fa fa-drupal fa-2x"></i></a></li>
+                                <li><a href="http://twitter.com/kaleemclarkson"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                <li><a href="http://www.linkedin.com/in/kaleemclarkson"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                                <li><a href="https://medium.com/@kaleemclarkson"><i class="fa fa-medium fa-2x"></i></a></li>
+                                <li><a href="http://github.com/kclarkson"><i class="fa fa-github fa-2x"></i></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div> <!---End of card bg-light-->
+
+                    <a href="/contact">
+                        <div class="contact card">
+                            <i class="fa fa-envelope-o fa-2x"></i>contact me
+                        </div>
+                    </a>
+
+                    <div class= "card bg-light sidebar-nav sidebar-tools">
+                        <h2><i class="fa fa-wrench fa-2x"></i>my toolbox</h2>
+                        <ul class="list-unstyled">
+                            <li class="nav-item"><a href="http://drupal.org">Drupal</a></li>
+                            <li class="nav-item"><a href="https://www.drush.org/">Drush</a></li>
+                            <li class="nav-item"><a href="http://sass-lang.com/">SASS</a></li>
+                            <li class="nav-item"><a href="http://twig.sensiolabs.org/">Twig</a></li>
+                            <li class="nav-item"><a href="https://getcomposer.org/">Composer</a></li>
+                            <li class="nav-item"><a href="https://gulpjs.com/">Gulp</a></li>
+                            <li class="nav-item"><a href="https://sculpin.io/">Sculpin</a></li>
+                            <li class="nav-item"><a href="https://foundation.zurb.com/">Foundation</a></li>
+                            <li class="nav-item"><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                            <li class="nav-item"><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+                            
+                        </ul>
+                    </div>  <!---End of sidbar-tools and nav-->
+                </div> <!-- End of Sidebar-->
+            </div> <!-- End of Main Wrapper -->
+        </main>
+        <footer class="container">
+            <span class="text-muted">&copy; 2019 Kaleem Clarkson</span>
+        </footer>
+
+        <script src="/build/app.js"></script>
+                
+        
+                    </body>
+</html>

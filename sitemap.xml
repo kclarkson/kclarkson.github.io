@@ -2,19 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc></loc>
-    <lastmod>2016-08-11</lastmod>
+    <lastmod>2019-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>/blog/2016/06/26/Drupal8-cmi.pantheon</loc>
-    <lastmod>2016-06-26T00:00:00+02:00</lastmod>
+    <loc>/blog/2019/01/30/how-to-ignore-local-changes-to-your-settingsphp-file-with-git/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding</loc>
-    <lastmod>2015-01-05T00:00:00+01:00</lastmod>
+    <loc>/blog/2018/12/28/an-drupal-core-issue-needs-help/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2018/12/20/drupalcamp-atlanta-videos-available/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2018/11/23/drupal-event-organizers-meeting-recap/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2018/11/02/sponsoring-drupalcamp-not-about-roi/</loc>
+    <lastmod>2018-11-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2018/10/27/drupalcamp-organizers-unite/</loc>
+    <lastmod>2018-10-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2018/10/20/add-blocks-in-paragraphs/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2017/01/17/is-remote-work-the-answer/</loc>
+    <lastmod>2017-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2016/06/26/Drupal8-cmi.pantheon/</loc>
+    <lastmod>2016-06-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    <url>
+    <loc>/blog/2015/01/05/A-New-Year-with-a-New-outLook-on-Personal-Branding/</loc>
+    <lastmod>2015-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

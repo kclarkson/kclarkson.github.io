@@ -1,0 +1,41 @@
+.brand-name,
+.brand-number {
+	float:left;
+}
+
+.brand-number {
+	color: $kc-orange;
+}
+
+.navbar {
+	padding: 0rem 1rem;
+}
+
+.navbar-default .container-fluid {
+	max-width: 1140px;
+}
+
+ a.navbar-brand {
+ 	color: $kc-white !important;
+ 	font-size: 40px;
+ 	&:hover {
+ 		color: $kc-blue !important;
+ 	}
+}
+
+
+.navbar-fixed-top {
+	padding: 5px 0px;
+}
+
+ul.navbar-nav {
+	li {
+		font-size: 1.3em;
+	}
+}
+
+.navbar-toggler {
+	font-size: 1rem;
+	padding: 0.25rem 0.35rem;
+	border-color: $white;
+}

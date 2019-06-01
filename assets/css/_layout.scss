@@ -1,0 +1,332 @@
+//
+// Styles for main layout
+// --------------------------------------------------
+
+
+// Meddia Queries for Bootstrap 4 
+// @include media-breakpoint-up(xs) { ... }
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(md) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+
+// Main and Base Styles //
+//--------------------------------------------------
+a,
+a:active {
+    
+}
+
+body > main.container {
+    padding: 80px 15px 0; /* 80px to make the container go all the way to the bottom of the topbar */
+}
+
+body {
+    color: $kc-gray;
+    @include media-breakpoint-up(lg) {
+        padding-bottom: 40px;
+    }
+}
+
+.main-content, .sidebar {
+    @include media-breakpoint-down (sm) {
+        padding: 0px;
+    }
+    
+}
+
+.main-wrapper {
+    padding-top: 2rem;
+
+    @include media-breakpoint-up(lg) {
+        display: flex;
+    }
+    
+}
+
+.btn {
+    color: $kc-white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+// End of Main and Base Styles
+
+
+// Article Content Styles
+
+.article-header {
+    @extend h2;
+    @include media-breakpoint-up(md) {
+        display: flex;
+    }
+}
+
+.article-content {
+    clear: both;
+}
+
+.date {
+    background-color: $kc-blue;
+    color: $kc-white;
+    flex: 0 0 auto;
+    font-size: 70%;
+    border-radius: 50%;
+    height: 75px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 75px;
+}
+
+.day {
+    margin-top: -1px;
+  
+}
+
+.month {
+    font-size: .55em;
+    padding-top: 6px;
+
+}
+
+.year {
+    font-size: .35em;
+
+}
+footer.container {
+    color: $kc-gray;
+    margin-top: 30px;
+    padding: 30px;
+    border-top: 1px dashed #aaa;
+}
+
+.header-container {
+    padding: 0px 15px;
+}
+
+.headshot {
+    img {
+        max-width: 250px;
+    } 
+}
+
+.headshot-container {
+    text-align: center;
+}
+
+.hm-posts li:first-child {
+    padding-left: 0px;
+}
+
+.hm-posts:last-child {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.hm-posts {
+
+    @include media-breakpoint-up(md) {
+        header {
+            display: flex;
+        }
+    }
+    
+    li {
+        list-style: none;
+    }
+
+    @include media-breakpoint-down (sm) {
+        padding: 0rem;
+    }
+
+}
+
+img {
+    width: 100%;
+}
+
+.image-header {
+    margin-bottom: 1em;
+}
+
+.image-header-posts {
+    @extend .image-header;
+}
+
+.image-header-projects {
+    @extend .image-header;
+}
+
+.hm-page.jumbotron {
+    @include media-breakpoint-up(md) {
+        padding: 2rem 3.5rem;
+        
+        h1 {
+            margin-top: 0px;
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.60rem;
+            font-weight: 200;
+        }
+    }
+    .btn {
+        margin: 0px;
+    }
+}
+
+.container .jumbotron {
+    h1 {
+        color: $kc-blue;
+    }
+}
+
+.mainContent.container {
+    margin-top: 4em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+.name-social  {
+    text-align: center;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1em 0em;
+        padding: 0px;
+        width: 100%;
+    }
+    li {
+        list-style: none;
+    }
+}
+
+.project-image-header {
+    margin-bottom: 1em;
+}
+
+.list-teaser {
+    ul {
+        margin: 0em;
+        padding: 0em;
+    }
+
+    li {
+        border-bottom: dotted 1px $kc-gray;
+        list-style: none;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+    }
+    li:first-child {
+        padding-top: 1em;
+    }
+
+    li:last-child {
+        border-bottom: none;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+.project-title {
+    font-size: 1.2em;
+    text-align: center;
+    a {
+        color: $kc-gray;
+    }
+}
+
+.project-title-teaser {
+    font-size: 1.6em;
+}
+
+.project-teaser-text .btn {
+    margin: 1em 0em;
+}
+
+.project-one.col-md-6 {
+    padding: 0px 0px;
+    margin-bottom: 2em;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+}
+
+.project-two.col-md-6 {
+    padding: 0px 0px;
+    @include media-breakpoint-up(md) {
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+}
+
+ .recent-projects {
+     .card-deck {
+         margin-bottom: 2rem;
+     }
+  }
+
+
+.sidebar { 
+    .card {
+        margin-bottom: 2rem;
+        padding: 1.3rem;
+    }  
+}
+
+
+.sidebar-tools {
+    font-size: 1.2em;
+    text-align: center;
+    h2 {
+        margin: 0px;
+    }
+    li {
+        clear: both;
+        padding: 0.3em 0em;
+    }
+
+    .fa.fa-wrench.fa-2x {
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
+}
+
+.well {
+    text-align: center;
+    ul {
+        padding: 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+.sidebar .contact {
+    background-color: $kc-blue;
+    color: $kc-white;
+    display: block;
+    font-size: 1.8em;
+    padding: 2rem;
+    width: 100%;
+    &:hover {
+        background-color: darken($kc-blue, 3%);
+        color: $kc-white;
+    }
+
+    .fa-envelope-o {
+        margin-right: 15px;
+    }
+}
+
+
